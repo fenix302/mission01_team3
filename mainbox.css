@@ -11,9 +11,9 @@
 }
 .right{
     float: right;
-    margin: 20px;
+    margin: 0px;
     margin-top: 70px;
-    padding: 20px;
+    padding: 0px;
     width: 50%;
     min-height: 500px;
     border: 1px solid red;
