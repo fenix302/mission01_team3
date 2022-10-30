@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스페이스워</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mainbox.css">
+    <style type="text/css">
+        *{margin: 0; padding: 0;}
+        body{width: auto;}
+        header{
+            padding-top: 20px;
+            height: 70px;
+            text-align: center;
+        }
+        #head p{
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 100px;
+            position: relative;
+            transform: translate(0%, -100%);
+            text-align: right;
+        }
+        .main{background-image: url(resources/images/spacewar.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; background-attachment: fixed;}
+        ul{position: relative;}
+        li{
+            list-style-type: none;
+            display: inline;
+        }
+        h2{display: inline-block; margin-left: 60px; margin-top: 20px;}
+        #section1{margin-left: 20em;}
+        #section2{position: fixed; bottom: 85%; display: inline-block;}
+        #section3{display: inline-block; width: 270px; border: 1px solid red; position: absolute; left: 80%; bottom: 0%;}
+        li a{
+            margin-left: 10px;
+            text-decoration: none;
+            width: auto;
+            font-size: 120%;
+            border: 1px solid red;
+        }
+        li a:hover{color: blueviolet;}
+        footer{text-align: center; font-size: 20px;}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="head">
+            <h1>KAKAO GAMES</h1>
+        </div>
+    </header>
+    <section>
+        <div class="main clear">
+            <div class="top">
+                <ul>
+                    <h2>Space War</h2>
+                    <div id="section1">
+                        <div id="section2">
+                            <li><a href="#">새소식</a></li>
+                            <li><a href="#">게임정보</a></li>
+                            <li><a href="#">가이드</a></li>
+                            <li><a href="#">커뮤니티</a></li>
+                        </div>
+                        <div id="section3">
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">GAME START</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <div class="left">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sed velit perspiciatis doloremque facere dolor nemo obcaecati, adipisci, consectetur, libero sint totam delectus ratione illum iure sapiente aliquam est ducimus.</p>
+            </div>
+            <div class="right">
+                
+            </div>
+        </div>
+       
+    </section>
+    <footer>Copyright ⓒ All rights reserved</footer>
+</body>
+</html>

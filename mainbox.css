@@ -1,0 +1,21 @@
+@charset "utf-8";
+.left{
+    float: left;
+    margin: 20px;
+    margin-top: 70px;
+    padding: 20px;
+    width: 40%;
+    min-height: 500px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.right{
+    float: right;
+    margin: 20px;
+    margin-top: 70px;
+    padding: 20px;
+    width: 50%;
+    min-height: 500px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
