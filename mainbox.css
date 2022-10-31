@@ -5,10 +5,22 @@
     margin-top: 70px;
     padding: 20px;
     width: 40%;
-    min-height: 500px;
+    min-height: 200px;
     border: 1px solid red;
     box-sizing: border-box;
 }
+
+.left2{
+    float: left;
+    margin: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    width: 40%;
+    min-height: 250px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
 .right{
     float: right;
     margin: 0px;
