@@ -27,12 +27,18 @@
             display: inline-block;
             margin-right: 20px;
         }
+        .navTop:hover{
+            transform: translateY(-3px);
+        }
         .navInfo{
             font-size: 25px;
             align-items: center;
         }
         .about{
             padding-bottom: 150px;
+        }
+        .about_main1-1:hover {
+            box-shadow: 0 0 8px grey;
         }
         .aboutImg{
             width: 1900px;
@@ -70,7 +76,7 @@
             border-top: 1px solid grey;
             border-bottom: 1px solid rgba(128, 128, 128, 0.26);
             padding-bottom: 10px;
-
+            justify-content: space-between;
         }
         .footer_top li{
             float: left; margin-top: 10px; padding: 0 20px; font-size: 14px;
@@ -82,7 +88,7 @@
             width: 1280px;
             margin: 20px auto;
         }
-        .footer_middle li {
+        .footer_middle li, a{
             float: right; padding: 5px;
         }
         
@@ -91,13 +97,15 @@
 </head>
 <body>
     <header class="header">
-        <div><a href="#"><img src="resources/images/logo.png" title="mainLogo" alt="main logo"></a></div>
+        <div><a href="#" name="메인로고"><img src="resources/images/logo.png" title="mainLogo" alt="main logo"></a></div>
         <ul>
             <li class="navTop"><a href="#" class="navInfo">HOME</a></li>
             <li class="navTop"><a href="#" class="navInfo">ABOUT</a></li>
             <li class="navTop"><a href="#" class="navInfo">SERVICE</a></li>
             <li class="navTop"><a href="#" class="navInfo">CONTACT</a></li>
+            <li class="navTop"><a href="#" class="navInfo">LOGIN</a></li>
         </ul>
+        
     </header>
     <main class="about">
         <div><img src="resources/images/aboutMain.jpg" alt="메인이미지" class="aboutImg"></div>
@@ -120,10 +128,10 @@
                     <li>
                         <div>
                             <a href="#">
-                                <div class="about_main2-1">
+                                <div class="about_main1-1">
                                     <img src="resources/images/about_main2.jpg" alt="설명사진2" style="width: 300px; height: 200px;">
                                 </div>
-                                <div class="about_main2-2">
+                                <div class="about_main1-2">
                                     <h3><strong>기업정보</strong></h3>
                                 </div>
                             </a>
@@ -132,10 +140,10 @@
                     <li>
                         <div>
                             <a href="#">
-                                <div class="about_main3-1">
+                                <div class="about_main1-1">
                                     <img src="resources/images/about_main3.jpg" alt="설명사진3" style="width: 300px; height: 200px;">
                                 </div>
-                                <div class="about_main3-2">
+                                <div class="about_main1-2">
                                     <h3><strong>사업정보</strong></h3>
                                 </div>
                             </a>
@@ -144,10 +152,10 @@
                     <li>
                         <div>
                             <a href="#">
-                                <div class="about_main4-1">
+                                <div class="about_main1-1">
                                     <img src="resources/images/about_main4.jpg" alt="설명사진4" style="width: 300px; height: 200px;">
                                 </div>
-                                <div class="about_main4-2">
+                                <div class="about_main1-2">
                                 <h3><strong>채용</strong></h3>
                                 </div>
                             </a>
@@ -177,6 +185,7 @@
                     <li><a href="#">개인정보처리방침</a></li>
                     <li><a href="#">사이트맵</a></li>
                 </ul>
+                <a href="#메인로고" style="padding: 15px 40px 0px 0px; font-size: 14px;">맨위로</a>
             </div>
             <div class="footer_middle">
                 <ul>
