@@ -36,6 +36,7 @@
             left: 0;
             right: 0;
             background: rgb(255, 255, 255);
+            z-index: 10;
         }
         .header ul{
             display: flex;
@@ -59,9 +60,17 @@
         .about_main1-1:hover {
             box-shadow: 2px 2px 8px grey;
         }
+        @keyframes img {
+            0% {opacity: 1;}
+            45% {opacity: 1;}
+            55% {opacity: 0;}
+            100% {opacity: 0;}
+        }
         .aboutImg{
             width: 1900px;
             height: 270px;
+            float: left;
+            position: relative;
         }
         h1{width: 1280px; margin: auto; display: flex; font-size: 45px; padding-top: 20px;}
         .main_group1 {
@@ -128,7 +137,7 @@
         
     </header>
     <main class="about">
-        <div><img src="resources/images/aboutMain.jpg" alt="메인이미지" class="aboutImg"></div>
+        <div><img src="resources/images/aboutMain.jpg" alt="메인이미지" class="aboutImg"><img src="resources/images/aboutMain2.jpg" alt="메인이미지2" class="back" style="width: 1900px; height: 270px; position: absolute; top: 80px; left: 0; animation: img 5s infinite alternate;"></div>
         <div class="aboutContents">
             <h1 class="intro_text">회사 소개</h1>
             <div class="aboutInfo">
