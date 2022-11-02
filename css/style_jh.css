@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
