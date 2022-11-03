@@ -13,62 +13,96 @@
         *{
             margin: 0;
             padding: 0;
+            background: rgb(221, 218, 218);
         }
         .team_top{
             display: flex;
-            margin: 50px 1px 50px 100px;
+            margin: 50px 110px 50px 110px;
             align-items: baseline;
+            border-bottom: 1px solid black;
+            padding-bottom: 30px;
+
         }
         #team_logo{
-            width: 300px;
-            padding-right: 30px;
+            width: 260px;
+            padding-right: 60px;
+        }
+        h1{
+            font-size: 80px;
         }
         .team_box1{
             display: flex;
-            padding-left: 30px;
+            justify-content: space-between;
+            padding: 0px 100px;
         }
         .team_mates1{
-            display: flex;
             list-style: none;
         }
         .team_main{
-            width: 290px;
-            padding: 40px;
+            width: 200px;
         }
         .team_box2{
             display: flex;
+            justify-content: space-between;
+            padding: 0px 100px;
         }
         .team_mates2{
             list-style: none;
             display: flex;
-            padding: 40px 15px 0px 80px;
+            padding-top: 20px;
+            position: relative;
         }
-
+        .team_mates2 p {
+            position: absolute;
+            top: 25%;
+            background: rgba(0, 0, 0, 0);
+            font-size: 50px;
+            left: 25px;
+            color: black;
+        }
+        .team_mates2>a>img{
+            width: 200px;
+            height: 330px;
+        }
     </style>
 
 
 </head>
 <body>
     <header class="team_top">
-        <img id="team_logo" src="resources/images/about_main1.jpg" alt="팀로고">
-        <h1>3조</h1>
+        <img id="team_logo" src="resources/images/team_logo2.png" alt="팀로고">
+        <h1>조</h1>
     </header>
     
     <ul class="team_box1">
-        <li class="team_mates1">
-            <img src="resources/images/team.png" alt="메인 기본틀" class="team_main">
-            <img src="resources/images/team.png" alt="메인 기본틀" class="team_main">
-            <img src="resources/images/team.png" alt="메인 기본틀" class="team_main">
-            <img src="resources/images/team.png" alt="메인 기본틀" class="team_main">
-            <img src="resources/images/team.png" alt="메인 기본틀" class="team_main">
-        </li>
+        <li class="team_mates1"><a href="jinho_about.html" target="_blank"><img src="resources/images/jinho.png" alt="최진호" class="team_main"></a></li>
+        <li class="team_mates1"><a href="#" target="_blank"><img src="resources/images/team.png" alt="김민지" class="team_main"></a></li>
+        <li class="team_mates1"><a href="#" target="_blank"><img src="resources/images/coconutgames.png" alt="이재헌" class="team_main"></a></li>
+        <li class="team_mates1"><a href="#" target="_blank"><img src="resources/images/team.png" alt="신예진" class="team_main"></a></li>
+        <li class="team_mates1"><a href="#" target="_blank"><img src="resources/images/team.png" alt="이도현" class="team_main"></a></li>
+
     </ul>
     <ul class="team_box2">
-        <li class="team_mates2"><a href="#"><img src="resources/images/team2.png" alt="팀원1" ></a></li>
-        <li class="team_mates2"><a href="#"><img src="resources/images/team2.png" alt="팀원2" ></a></li>
-        <li class="team_mates2"><a href="#"><img src="resources/images/team2.png" alt="팀원3" ></a></li>
-        <li class="team_mates2"><a href="#"><img src="resources/images/team2.png" alt="팀원4" ></a></li>
-        <li class="team_mates2"><a href="#"><img src="resources/images/team2.png" alt="팀원5" ></a></li>
+        <li class="team_mates2">
+            <a href="jinho_about.html" target="_blank"><img src="resources/images/1233.png" alt="최진호" ></a>
+            <a href="jinho_about.html" target="_blank"><p>최진호</p></a>
+        </li>
+        <li class="team_mates2">
+            <a href="#" target="_blank"><img src="resources/images/1233.png" alt="김민지" style="opacity: 0.5;"></a>
+            <p>김민지</p>
+        </li>
+        <li class="team_mates2">
+            <a href="#" target="_blank"><img src="resources/images/1233.png" alt="이재헌" ></a>
+            <p>이재헌</p>
+        </li>
+        <li class="team_mates2">
+            <a href="#" target="_blank"><img src="resources/images/1233.png" alt="신예진" style="opacity: 0.5;"></a>
+            <p>신예진</p>
+        </li>
+        <li class="team_mates2">
+            <a href="#" target="_blank"><img src="resources/images/1233.png" alt="이도현" ></a>
+            <p>이도현</p>
+        </li>
     </ul>
     
 </body>
