@@ -20,13 +20,22 @@
             align-items: baseline;
             border-bottom: 1px solid black;
             padding-bottom: 30px;
+            position: relative;
         }
+
         #team_logo{
             width: 260px;
             padding-right: 60px;
         }
         h1{
             font-size: 80px;
+            display: inline;
+        }
+        .mission{
+            position: absolute;
+            right: 50px;
+            bottom: 50px;
+            font-size: 30px;
         }
         .team_box1{
             display: flex;
@@ -68,15 +77,18 @@
 </head>
 <body>
     <header class="team_top">
-        <img id="team_logo" src="resources/images/team_logo2.png" alt="팀로고">
-        <h1>조</h1>
+        <div>
+            <img id="team_logo" src="resources/images/team_logo2.png" alt="팀로고">
+            <h1>조</h1>
+        </div>
+        <div class="mission"><p>Mission 1</p></div>
     </header>
     <ul class="team_box1">
         <li class="team_mates1"><a href="html/jinho_about.html" target="_blank"><img src="resources/images/jinho.png" alt="최진호" class="team_main"></a></li>
         <li class="team_mates1"><a href="html/KMJ_about.html" target="_blank"><img src="resources/images/KMJ_camera.png" alt="김민지" class="team_main"></a></li>
         <li class="team_mates1"><a href="html/Jaeheon_about.html" target="_blank"><img src="resources/images/coconutgames.png" alt="이재헌" class="team_main"></a></li>
         <li class="team_mates1"><a href="html/yejin_about.html" target="_blank"><img src="resources/images/diamond.png" alt="신예진" class="team_main"></a></li>
-        <li class="team_mates1"><a href="html/DoHyun_about.html" target="_blank"><img src="resources/images/l" alt="이도현" class="team_main"></a></li>
+        <li class="team_mates1"><a href="html/DoHyun_about.html" target="_blank"><img src="resources/images/LDH_logo.ico" alt="이도현" class="team_main"></a></li>
     </ul>
     <ul class="team_box2">
         <li class="team_mates2">
