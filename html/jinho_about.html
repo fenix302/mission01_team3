@@ -22,6 +22,7 @@
             animation: logo 2s  1s infinite alternate;
             padding-left: 30px;
             padding-right: 480px;
+            float: left;
         }
         .header{
             width: 100%;
@@ -69,7 +70,6 @@
         .aboutImg{
             width: 1900px;
             height: 270px;
-            float: left;
             position: relative;
         }
         h1{width: 1280px; margin: auto; display: flex; font-size: 45px; padding-top: 20px;}
@@ -137,7 +137,10 @@
         
     </header>
     <main class="about">
-        <div><img src="../resources/images/aboutMain_jh.jpg" alt="메인이미지" class="aboutImg"><img src="../resources/images/aboutMain2_jh.jpg" alt="메인이미지2" class="back" style="width: 1900px; height: 270px; position: absolute; top: 80px; left: 0; animation: img 5s infinite alternate;"></div>
+        <div>
+            <img src="../resources/images/aboutMain_jh.jpg" alt="메인이미지" class="aboutImg">
+            <img src="../resources/images/aboutMain2_jh.jpg" alt="메인이미지2" class="back" style="width: 1900px; height: 270px; position: absolute; top: 80px; left: 0; animation: img 5s infinite alternate;">
+        </div>
         <div class="aboutContents">
             <h1 class="intro_text">회사 소개</h1>
             <div class="aboutInfo">
